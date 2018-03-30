@@ -110,7 +110,7 @@ custom_calendars:
       type: string
     offset_time:
       required: false
-      description: You can define an offset either in the event message (see below) or for all events in the calendar. -10 will set the attribute offset_reached to true 10 minutes before the event starts.
+      description: You can define an offset either in the event message (see below) or for all events in the calendar. -10 will set the attribute offset_reached to true 10 minutes before any event of the custom calendar starts.
       type: string
 {% endconfiguration %}
 
